@@ -1,0 +1,19 @@
+.button {
+  margin: 55px 15px 25px 0px;
+  
+}
+
+
+.btn {
+    background-color: #01005B;
+    color: #fff;
+    padding: 16px 55px;
+    border-radius: 5px;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+    .btn-arrow {
+        margin-left: 10px;
+    }
