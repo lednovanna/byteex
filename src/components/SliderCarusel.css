@@ -1,0 +1,20 @@
+.sliderCarusel-container {
+    max-width: 600px;
+    margin: 0 auto;
+      
+  }
+  
+  .slick-slide img {
+    
+    height: auto;
+    object-fit: cover; /* Масштабирование изображения, чтобы оно соответствовало слайду */
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1; /* Поверх всех элементов */
+  }
+  
+  .slick-dots {
+    bottom: 10px; /* Положение точек */
+    margin-right: 30px;
+  }

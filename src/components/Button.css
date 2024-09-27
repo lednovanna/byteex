@@ -17,3 +17,19 @@
     .btn-arrow {
         margin-left: 10px;
     }
+
+    @media (max-width: 690px){
+
+    .button {
+        display: flex;
+       justify-content: center;
+       align-self: center;
+       margin: 25px 15px;
+      }
+
+      .btn {
+      
+       width: 100%;
+       padding: 12px 45px;
+      } 
+     }

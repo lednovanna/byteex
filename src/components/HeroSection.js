@@ -1,13 +1,14 @@
 import React from "react";
 import './HeroSection.css';
 import Button from './Button';
+import Benefits from './SectionBenefits';
 
 
 
 function HeroSection() {
     return (
       <div className="App">
-       <div className="heroSection-container ">
+       <div className="heroSection-container">
         <div className="heroSection-top">
          <span class="hide-on-small-screen">CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)</span>
           <span class="hide-on-small-screen"> | </span>
@@ -16,6 +17,7 @@ function HeroSection() {
               <span class="hide-on-small-screen">easy 45 day return window</span>
               </div> 
           </div>
+            <div className="page-mainSection">
              <div className="heroSection-logo ">
               <img src="/assets/icons/logo.png" alt="Company Logo" className="logo"/>
               </div>
@@ -44,7 +46,9 @@ function HeroSection() {
           </div>
           <div className="mainSection-text">Our signature fabric is incredibly comfortable — unlike <br/> anything you’ve ever felt.</div>
         </div>
+        <div className="button">
         <Button/>
+        </div>
       </div>
     </div>
 
@@ -64,7 +68,12 @@ function HeroSection() {
     </div>
   </div>
 </div>
-      </div>
+
+<Benefits/>
+
+</div>
+</div>
+      
     );
   }
   
