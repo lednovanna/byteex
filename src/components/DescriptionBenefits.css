@@ -1,8 +1,6 @@
 .descriptionBenefits-section {
-    margin-left: 40px;
-     gap: 20px;
-     padding: 90px 0;
-     
+    
+      
 }
 
 .descriptionBenefits-top {
@@ -34,18 +32,20 @@
 }
 
 .mainSectionBenefits {
-    display: flex;
-    align-self: center;
-    align-items: center; 
-    padding: 50px;
     
+    
+     max-width: 1200px;
+     margin: 0 auto;
+    
+   
 
   }
 
 .mainSectionBenefits-body {
     display: flex;
-    justify-content: space-between;
+    margin: 30px 5px;
      width: 100%;
+    
 }
 
 

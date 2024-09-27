@@ -3,12 +3,12 @@
     justify-content: center;
    background-color: #F9F0E5;
    margin: 0 auto; 
+   width: 100%;
   
 }
 
 .heroSection-top {
     
-    max-width: 1198px;
     padding: 11px;
     font-size: 11px;
     font-weight: 400; 
@@ -23,7 +23,7 @@
     display: flex;
     justify-content: flex-start; 
     align-items: flex-start;
-    margin-left: 115px;
+    margin: 5px;
     
 }
 
@@ -35,17 +35,19 @@
 .mainSection {
     display: flex;
     align-self: center;
-    justify-content: space-between; /* Разместим текст и изображения по краям */
-    align-items: center; /* Вертикальное выравнивание */
-    padding: 50px;
-    width: 1289px;
-    height: 500px;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 600px;
+    width: 100%;
+    
     
   }
 
   .page-mainSection {
     margin: 0 auto;
-    max-height: 800px;
+    height: 800px;
+    max-width: 1300px;
+    width: 100%;
   }
 
 .mainSection-body {

@@ -1,0 +1,93 @@
+.section-yourBest {
+   
+    align-items: flex-start;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  
+  
+   
+
+    .yourBest-image-section {
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .yourBest-mainSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 5px;
+
+    max-width: 1300px;
+    
+  }
+  
+  /* Грид для картинок */
+  .yourBest-image-container {
+    position: relative; /* Относительное позиционирование контейнера */
+  width: 400px; /* Ширина для большого изображения */
+  margin: 0 auto;
+  }
+  
+  
+  
+  /* Правая секция с текстом */
+  .yourBest-text-section {
+    flex: 1;
+    padding-left: 40px;
+    max-width: 500px;
+  }
+  
+  .yourBest-text-section h2 {
+    color: #2b2b2b;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .yourBest-text-section p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+  }
+
+  .main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .small-image {
+    position: absolute;
+     /* Вертикальное выравнивание по середине */
+   
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для небольшого эффекта */
+  }
+
+  .left{
+    left: -40px;
+    top: -50px;
+  }
+  
+  /* Правое маленькое изображение */
+  .right { /* Расположение справа от большого изображения */
+    right: -20px;
+    bottom: -50px;
+    
+  }
+  
+  .yourBest-btn {
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px 4px;
+  }
+  
+ 
