@@ -1,7 +1,9 @@
 .heroSection-container {
     display: flex;
     justify-content: center;
-   background-color: #F9F0E5; 
+   background-color: #F9F0E5;
+   margin: 0 auto; 
+  
 }
 
 .heroSection-top {
@@ -21,7 +23,7 @@
     display: flex;
     justify-content: flex-start; 
     align-items: flex-start;
-    margin-left: 15%;
+    margin-left: 115px;
     
 }
 
@@ -37,6 +39,13 @@
     align-items: center; /* Вертикальное выравнивание */
     padding: 50px;
     width: 1289px;
+    height: 500px;
+    
+  }
+
+  .page-mainSection {
+    margin: 0 auto;
+    max-height: 800px;
   }
 
 .mainSection-body {
@@ -197,10 +206,10 @@
         
     }
 
-    .mainSection-item {
+    .mainSection-item img {
         display: flex;
         flex-direction: column;
-       
+        object-position: center;
     }
 
     .mainSection-text {
@@ -209,16 +218,20 @@
     }
 
     .mainSection-collage {
+        display: flex;
+        
         width: 40%;
+        object-position: left;
     }
 
     .collage-bg {
-       
+       width: 20%
     }
 
     .collage-img {
         width: 20%; 
         height: auto;
+    
         
       }
     
@@ -232,4 +245,16 @@
     .mainSection-text {
         font-size: 12px;
     }
+
+    .button {
+        display: flex;
+       justify-content: center;
+       align-self: center;
+      }
+
+      .btn {
+      
+       width: 100%;
+       padding: 12px 45px;
+      } 
 }
