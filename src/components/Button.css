@@ -1,5 +1,5 @@
 .button {
-  margin: 55px 15px 25px 0px;
+  margin: 55px 15px 25px 5px;
   
 }
 
@@ -12,6 +12,10 @@
     letter-spacing: 0.4px;
     font-size: 16px;
     cursor: pointer;
+    }
+
+    .btn:hover {
+        opacity: 0.6;
     }
 
     .btn-arrow {
