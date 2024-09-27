@@ -1,0 +1,105 @@
+.sectionComfort {
+    
+ background: #f5f5f5;
+}
+
+.features-section {
+    width: 100%;
+    max-width: 1300px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 40px 5px;
+  }
+  
+  .sectionComfort-title h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 40px 10px 30px 10px;
+    letter-spacing: 0.7px;
+    font-size: 300;
+    color: #15005B;
+  }
+  
+  
+  .features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+  }
+  
+
+  .feature-item {
+    background-color: #F0EEEF;
+    border-radius: 10px;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.5rem;
+    color: #2b2b2b;
+    margin: 20px 0;
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+
+  .icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  
+  .highlight {
+    background-color: #F9F0E6; 
+  }
+
+  .sectionComfort-btn {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 0px 20px;
+  }
+
+  .sectionComfort-raiting {
+    display: flex;
+
+  }
+
+
+  .sectionComfort-reviews {
+      display: flex;
+      justify-content: center;
+      margin-top: -15px;
+  }
+
+  .sectionComfort-raiting img {
+    margin:  3px 10px;
+    width: 60px;
+    height: 10px;
+  }
+  
+  .sectionComfort-bottom {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .sectionComfort-title {
+    margin-bottom: -35px;
+  }
+
+  .sectionComfort-bottom-text {
+     align-self: center;
+     max-width: 613px;
+  }
+  

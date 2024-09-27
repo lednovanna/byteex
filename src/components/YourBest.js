@@ -4,6 +4,7 @@ import Button from "./Button";
 
 function YourBest() {
     return (
+        <div className="page-yourBest">
         <div className="section-yourBest ">
             <div className="yourBest-mainSection ">
             <div className="yourBest-image-section ">
@@ -45,7 +46,7 @@ function YourBest() {
        
         
         </div>
-        
+        </div>
     )
 }
 

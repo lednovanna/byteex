@@ -8,7 +8,12 @@
   }
   
   
-  
+  .page-yourBest {
+    background-color: #F0EEEF;
+    object-fit: cover;
+    height: 100%;
+    padding: 20px 10px;
+  }
    
 
     .yourBest-image-section {
@@ -22,7 +27,6 @@
     display: flex;
     justify-content: space-between;
     margin: 120px 5px;
-
     max-width: 1300px;
     
   }
