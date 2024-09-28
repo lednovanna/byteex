@@ -5,6 +5,7 @@ import SectionComfort from './components/SectionComfort';
 import SectionCollage from './components/SectionCollage';
 import SectionReviews from './components/SectionReviews';
 import SectionFAQ from './components/SectionFAQ';
+import SectionImpact from './components/SectionImpact';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
      <SectionCollage/>
     <SectionReviews/>
     <SectionFAQ/>
+    <SectionImpact/>
     </div>
   );
 }
