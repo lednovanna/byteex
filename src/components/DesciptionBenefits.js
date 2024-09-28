@@ -46,7 +46,7 @@ function DescriptionBenefits() {
                             <div className="mainSectionBenefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.</div>
                         </div>
 
-                        <div className="mainSectionBenefits-list"> {/* Исправлена опечатка */}
+                        <div className="mainSectionBenefits-list"> 
                             <div className="mainSectionBenefits-item">
                                 <img className="mainSectionBenefits-icon" src="/assets/icons/icon27.png" alt="main-icon" />
                             </div>

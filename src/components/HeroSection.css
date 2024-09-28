@@ -91,7 +91,7 @@
 .mainSection-collage {
      
         display: flex;
-        border: 1px solid #fff; 
+         
         justify-content: center; 
         align-items: center;
         position: relative;

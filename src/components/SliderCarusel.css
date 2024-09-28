@@ -7,14 +7,14 @@
   .slick-slide img {
     
     height: auto;
-    object-fit: cover; /* Масштабирование изображения, чтобы оно соответствовало слайду */
+    object-fit: cover; 
   }
   
   .slick-prev, .slick-next {
-    z-index: 1; /* Поверх всех элементов */
+    z-index: 1; 
   }
   
   .slick-dots {
-    bottom: 10px; /* Положение точек */
+    bottom: 10px; 
     margin-right: 30px;
   }

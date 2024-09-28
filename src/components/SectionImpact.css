@@ -1,0 +1,78 @@
+.sectionImpact {
+    
+   
+    margin: 0 auto;
+     background-color: #F0EEEF;
+}
+
+.green-impact-section {
+ gap: 30px;
+    text-align: center;
+    padding: 40px 20px;
+    
+  }
+  
+  
+  .green-impact-section h2 {
+    font-size: 1.5rem;
+     color: #01005B;
+    margin-bottom: 30px;
+  }
+  
+
+  .impact-items {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: 0 auto;
+  }
+  
+  /* Каждый отдельный элемент */
+  .impact-item {
+    flex: 1;
+    
+    padding: 20px;
+    border-radius: 10px;
+    
+    text-align: center;
+  }
+  
+  /* Иконки */
+  .impact-item .icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  
+  /* Текст */
+  .impact-item h3 {
+    font-size: 1.25rem;
+    color: #01005B;
+    margin: 10px 0;
+  }
+  
+  .impact-item p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .divider {
+    width: 1px;
+    height: 120px;
+    background-color: #ddd;
+  }
+
+  /*=========================================================*/
+
+  @media (max-width: 768px) {
+    .impact-items {
+      flex-direction: column; /* Элементы располагаются вертикально */
+      gap: 20px; /* Увеличиваем расстояние между элементами */
+    }
+  
+    .impact-item {
+      margin-bottom: 20px; /* Дополнительные отступы для мобильной версии */
+    }
+  }
