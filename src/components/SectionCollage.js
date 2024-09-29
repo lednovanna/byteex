@@ -30,14 +30,7 @@ function SectionCollage() {
   <img src="/assets/img/img25.jpg" alt="Collage" />
   <img src="/assets/img/img4.jpg" alt="Collage" />
   <img src="/assets/img/img5.jpg" alt="Collage" />
-  <img src="/assets/img/img6.jpg" alt="Collage" />
-  <img src="/assets/img/img7.png" alt="Collage" />
-  <img src="/assets/img/img8.png" alt="Collage" />
-  <img src="/assets/img/img9.png" alt="Collage" />
-  <img src="/assets/img/img10.png" alt="Collage" />
-  <img src="/assets/img/img11.png" alt="Collage" />
-  <img src="/assets/img/img12.png" alt="Collage" />
-  <img src="/assets/img/img13.png" alt="Collage" />
+ 
   
         </div>
     )

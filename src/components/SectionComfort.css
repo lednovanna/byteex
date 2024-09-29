@@ -103,3 +103,7 @@
      max-width: 613px;
   }
   
+
+  .features-containerMobile {
+    display: none;
+  }

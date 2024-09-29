@@ -7,7 +7,8 @@
 
 .sectionReviews-body {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 80px;
 }
@@ -16,10 +17,11 @@
     
    
     height: 100%;
-     max-width: 416px;
+     max-width: 316px;
      box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
      background-color: #fff;
      padding: 25px;
+     margin: 10px;
      border-radius: 8px;
  }
  
@@ -68,3 +70,15 @@
      margin-top: 20px;
      line-height: 142%;
  }
+
+ 
+
+ /*==================================================================*/
+ 
+ @media (max-width:1185px) { 
+ .sectionReviews-body {
+   
+    gap: 10px;
+   
+}
+}

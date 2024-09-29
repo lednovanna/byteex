@@ -14,8 +14,8 @@
       .featureFinish-body{
         padding: 20px 0px;
          display: flex;
-        justify-content: space-between; /* Разделяем элементы по горизонтали */
-        align-items: center; /* Центрируем элементы по вертикали */
+        justify-content: space-between; 
+        align-items: center; 
         padding: 20px 20px 60px 20px;
         max-width: 1300px;
         margin: 0 auto;
@@ -50,4 +50,12 @@
         height: 40px;
         background-color: #ddd;
         margin: 0 20px;
+      }
+
+      /*===============================================================*/
+
+      @media (max-width: 600px) {
+        .featureFinish-body {
+            display: none;
+        }
       }

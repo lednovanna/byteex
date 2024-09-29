@@ -1,7 +1,7 @@
 .sectionBenefits {
     position: relative;
     z-index: 1;   
-    margin: -80px 5px 20px 10px;
+    margin: 40px 5px 20px 5px;
 }
 
 .sectionBenefits-container {
@@ -56,4 +56,66 @@
     font-size: 14px;
     margin-top: 20px;
     line-height: 142%;
+}
+
+/*========================================================================*/
+@media (max-width: 1000px){ 
+
+.sectionBenefits {
+   display: flex;
+    justify-content: center;  
+    margin: 2px 10px 20px 10px;
+    
+}
+ 
+.sectionBenefits-text {
+   
+    font-size: 14px;
+    margin-top: 2px;
+    line-height: 142%;
+}
+
+.mainSectionBenefits-listContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+ 
+}
+
+@media (max-width: 522px) {
+    .sectionBenefits-container {
+    
+    margin: 10px 10px 20px 10px;
+        height: 100%;
+         
+         padding: 15px;
+     }
+
+     .sectionBenefits {
+        display: flex;
+         justify-content: center;  
+        margin: 10px;
+         
+     }
+
+
+     
+}
+ 
+@media (max-width: 370px){ 
+
+    .sectionBenefits{
+      margin: 10px;
+    }
+
+.sectionBenefits-text {
+    
+    font-size: 12px;
+   
+}
 }

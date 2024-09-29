@@ -2,6 +2,7 @@ import React from "react";
 import './SectionComfort.css';
 import Button from "./Button";
 
+
 function SectionComfort() {
     return (
         <div className="sectionComfort ">
@@ -36,6 +37,9 @@ function SectionComfort() {
     <p>Wear them around the house, out on the town, or in bed.</p>
   </div>
 </div>
+
+
+
 
 <div className="sectionComfort-btn">
     <Button/>

@@ -18,21 +18,25 @@ function SliderCarusel() {
 
     return (
         <div className="sliderCarusel-container">
+           <div className="sliderBody">
              <Slider {...settings}>
+          
         <div>
-          <img src="/assets/img/img2.jpg" alt="Slide 1" width="433px" height="648px"/>
+          <img src="/assets/img/img2.jpg" alt="Slide 1" />
         </div>
         <div>
-          <img src="/assets/img/img2.jpg" alt="Slide 2"width="433px" height="648px" />
+          <img src="/assets/img/img2.jpg" alt="Slide 2" />
         </div>
         <div>
-          <img src="/assets/img/img2.jpg" alt="Slide 3"width="433px" height="648px" />
+          <img src="/assets/img/img2.jpg" alt="Slide 3"/>
         </div>
         <div>
-          <img src="/assets/img/img2.jpg" alt="Slide 4" width="433px" height="648px"/>
+          <img src="/assets/img/img2.jpg" alt="Slide 4" />
         </div>
+        
       </Slider>
         </div>
+      </div>
     )
 }
 

@@ -19,6 +19,7 @@ function SectionImpact() {
       <p>of CO2 saved</p>
       </div>
       <div class="divider"></div>
+      <hr className="impactSetion"></hr>
     <div className="impact-item">
       <div className="icon">
         <img src="/assets/icons/icon39.png" alt="Icon 2" />
@@ -26,7 +27,9 @@ function SectionImpact() {
       <h3>2,546,167 days</h3>
       <p>of drinking water saved</p>
     </div>
+
     <div class="divider"></div>
+    <hr className="impactSetion"></hr>
     <div className="impact-item">
       <div class="icon">
         <img src="/assets/icons/icon38.png" alt="Icon 3" />

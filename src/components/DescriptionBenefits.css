@@ -1,11 +1,12 @@
 .descriptionBenefits-section {
-    
+    max-width: 100%;
+     width: 100%;
       
 }
 
 .descriptionBenefits-top {
     background: linear-gradient(to bottom, #F9F0E5,#f5f5f5);
-
+    max-width: 100%;
 }
 
 
@@ -20,6 +21,7 @@
 .descriptionBenefits-brands{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
     margin: 55px 15px 25px 15px ;
     padding-bottom: 25px;
@@ -97,90 +99,126 @@
 
   .slider-section {
     flex: 1;
-    max-width: 433px; /* Слайдер занимает оставшуюся половину */
+    max-width: 290px; /* Слайдер занимает оставшуюся половину */
   }
 
+  .mainSection-body {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .benefitsDivider {
+    display: none;
+}
+
+/*===================================================================*/
+
+@media (max-width: 1000px) {
+    .descriptionBenefits-section{
+        margin-top: 200px;
+    }
+
+    
+
+    .descriptionBenefits-brands{
+        
+        margin: 15px 15px 25px 15px ;
+        padding-bottom: 25px;
+         
+    }
+}
+   
+/*=======================================================================*/
+@media (max-width: 1250px) {
+ 
+
+    .mainSectionBenefits {
+      justify-content: center;
+    }
+
+    .mainSectionBenefits-textBlock {
+        max-width: 100%;
+    
+        padding-right: 20px; 
+      }
+
+      .mainSectionBenefits-text {
+       
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0px 0px 0px 15px;
+      }
+    
+     
+}
+
+@media (max-width: 1210px) {
+    .mainSectionBenefits-textBlock {
+        max-width: 100%;
+        padding-right: 5px; 
+        
+      }
+
+      .mainSectionBenefits-title {
+        justify-content: center;
+      }
+
+      .mainSection-body{
+        max-width: 100%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        
+      }
+      .mainSectionBenefits-body {
+        display: flex;
+        flex-direction: column-reverse;
+        
+      }
+     
+      .mainSectionBenefits {
+        display: flex;
+        justify-content: center;
+      }
+
+      .benefitsDivider {
+        display: inline;
+    }
+
+    .sliderBlock {
+        display: flex;
+        justify-content: center;
+        
+    }
+      
+}
+
+
+@media (max-width: 1210px) {
+    .mainSectionBenefits-textBlock {
+        max-width: 100%;
+        padding-right: 5px; 
+        margin: 15px;
+      }
+    }
 
 @media (max-width: 860px){
     .hide-on-small-screen{
         display:none;
         
     }
-    .heroSection-logo {
-        display: flex;
-        justify-content: center;
-        margin-left: 0%;
-         }
 
-    .mainSection-body {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
+    .descriptionBenefits-brands{
+        display: none;
+        margin: 10px 10px 15px 10px ;
+        padding-bottom: 25px;
+         
     }
-
-    .mainSection-title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .mainSection-listContainer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mainSection-list {
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .mainSection-item img {
-        display: flex;
-        flex-direction: column;
-        object-position: center;
-    }
-
-    .mainSection-text {
-        font-size: 14px;
-        
-    }
-
-    .mainSection-collage {
-        display: flex;
-        
-        width: 40%;
-        object-position: left;
-    }
-
-    .slider-section {
-        flex: 1; /* Слайдер занимает 1 часть пространства */
-        max-width: 50%; /* Ограничиваем ширину слайдера */
-      }
-    
-        
-      
-    
 }
 
-@media (max-width: 660px) {
-    .mainSection-title {
-        font-size: 26px;
+@media (max-width: 400px) {
+    .descriptionBenefits-section{
+        margin-top: 240px;
     }
-
-    .mainSection-text {
-        font-size: 12px;
-    }
-
-    .button {
-        display: flex;
-       justify-content: center;
-       align-self: center;
-      }
-
-      .btn {
-      
-       width: 100%;
-       padding: 12px 45px;
-      } 
 }
