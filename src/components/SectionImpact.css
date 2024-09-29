@@ -1,6 +1,6 @@
 .sectionImpact {
     
-
+   
     margin: 0 auto;
      background-color: #F0EEEF;
 }
@@ -12,20 +12,20 @@
     
   }
   
-  /* Заголовок */
+  
   .green-impact-section h2 {
     font-size: 1.5rem;
-    color: #333;
+     color: #01005B;
     margin-bottom: 30px;
   }
   
-  /* Контейнер для всех элементов */
+
   .impact-items {
     display: flex;
-    justify-content: space-between; /* Разделение элементов по горизонтали */
-    gap: 20px; /* Пробелы между элементами */
-    max-width: 1000px; /* Ограничение по ширине для централизации */
-    margin: 0 auto; /* Центрирование контейнера */
+    justify-content: space-between; 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: 0 auto;
   }
   
   /* Каждый отдельный элемент */
@@ -49,7 +49,7 @@
   /* Текст */
   .impact-item h3 {
     font-size: 1.25rem;
-    color: #2b2b2b;
+    color: #01005B;
     margin: 10px 0;
   }
   

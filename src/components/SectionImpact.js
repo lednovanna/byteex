@@ -21,7 +21,7 @@ function SectionImpact() {
       <div class="divider"></div>
     <div className="impact-item">
       <div className="icon">
-        <img src="/assets/icons/icon37.png" alt="Icon 2" />
+        <img src="/assets/icons/icon39.png" alt="Icon 2" />
       </div>
       <h3>2,546,167 days</h3>
       <p>of drinking water saved</p>

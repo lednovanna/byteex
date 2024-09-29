@@ -1,0 +1,53 @@
+.sectionFooter {
+    background: linear-gradient(to top, #F9F0E5,#f5f5f5);
+}
+
+.finishBody {
+    display: flex;
+    margin: 30px 20px;
+    
+    }
+    
+       
+        
+      
+      .featureFinish-body{
+        padding: 20px 0px;
+         display: flex;
+        justify-content: space-between; /* Разделяем элементы по горизонтали */
+        align-items: center; /* Центрируем элементы по вертикали */
+        padding: 20px 20px 60px 20px;
+        max-width: 1300px;
+        margin: 0 auto;
+      }
+      
+    
+      .feature-itemFinish {
+        
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex: 1; 
+      }
+      
+      
+      .feature-itemFinish img {
+        width: 40px;
+        height: 40px;
+      }
+      
+      
+      .feature-itemFinish p {
+        font-size: 1rem;
+        color: #676869;
+        margin: 0;
+        line-height: 1.4;
+      }
+      
+      
+      .divider {
+        width: 1px;
+        height: 40px;
+        background-color: #ddd;
+        margin: 0 20px;
+      }

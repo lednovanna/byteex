@@ -1,0 +1,113 @@
+.sectionFinish {
+    
+    margin: 0 auto; 
+}
+
+.SectionFinish-top {
+    align-items: center;
+}
+
+.SectionFinish-title {
+    margin-top: 80px;
+    text-align: center;
+    color: #01005B;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    padding: 0px 10px;
+    
+}
+
+.sectionFinish-text {
+   display: flex;
+   justify-content: center;
+   line-height: 1.5;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.finish{
+    margin-top: 80px;
+}
+
+.buttonFinish-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionFinish-button  {
+    display: flex;
+    justify-content: center;
+  padding: 30px 30px 0px 30px;
+  
+}
+
+.sectionFinish-text {
+    display: flex;
+}
+
+
+.finishBody {
+display: flex;
+margin-bottom: 20px;
+}
+
+.featuresFinish-section {
+   
+    
+   
+    
+  }
+  .featureFinish-body{
+    
+     display: flex;
+    justify-content: space-between; /* Разделяем элементы по горизонтали */
+    align-items: center; /* Центрируем элементы по вертикали */
+    padding: 20px 20px 60px 20px;
+    
+    margin: 0 auto;
+  }
+  
+
+  .feature-itemFinish {
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1; 
+  }
+  
+  /* Иконка */
+  .feature-itemFinish img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Текст */
+  .feature-itemFinish p {
+    font-size: 1rem;
+    color: #676869;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  
+  .divider {
+    width: 1px;
+    height: 40px;
+    background-color: #ddd;
+    margin: 0 20px;
+  }
+  
+  /*============================================================*/
+  @media (max-width: 768px) {
+    .features-section {
+      flex-direction: column; /* Вертикальное расположение для мобильных */
+      gap: 15px;
+    }
+  
+    .divider {
+      display: none; /* Скрываем разделитель на мобильных устройствах */
+    }
+  }
