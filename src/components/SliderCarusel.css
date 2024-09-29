@@ -1,6 +1,7 @@
 .sliderCarusel-container {
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
+    
       
   }
   
@@ -8,6 +9,8 @@
     
     height: auto;
     object-fit: cover; 
+    width: 433px;
+     height: 648px;
   }
   
   .slick-prev, .slick-next {
@@ -16,5 +19,9 @@
   
   .slick-dots {
     bottom: 10px; 
-    margin-right: 30px;
+    
   }
+
+  /*===================================================================*/
+
+  

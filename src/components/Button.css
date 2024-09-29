@@ -22,13 +22,23 @@
         margin-left: 10px;
     }
 
+    /*=====================================================*/
+    @media (max-width: 1000px) {
+        .button {
+            margin: 15px 15px 25px 5px;
+            display: flex;
+            justify-content: center;
+            
+          }
+    }
+
     @media (max-width: 690px){
 
     .button {
         display: flex;
        justify-content: center;
        align-self: center;
-       margin: 25px 15px;
+       margin: 15px 15px 25px 5px;
       }
 
       .btn {
@@ -36,4 +46,10 @@
        width: 100%;
        padding: 12px 45px;
       } 
+     }
+
+     @media (max-width: 690px) {
+       .btn{ 
+        padding: 10px 65px;
+     }
      }

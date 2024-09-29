@@ -96,3 +96,56 @@ hr {
     top: -130px;
     
   }
+
+  .sectionFAQ-block {
+    flex-wrap: wrap;
+  }
+  /*===========================================================================*/
+  @media (max-width: 974px) {
+    
+  .leftFAQ{
+    left: -100px;
+    top: 290px;
+  }
+  
+  
+  .rightFAQ { 
+    right: 80px;
+    top: -130px;
+    
+  }
+
+  }
+  
+  @media (max-width:875px) {
+    .sectionFAQ-collage {
+        display: none;
+    }
+
+    .sectionFAQ-title h2 {
+       
+       
+        margin: 20px 5px;  
+    }
+    .blockSection{
+        
+        margin: 20px 2px;
+      }
+
+  }
+
+  @media (max-width: 430px){
+    hr {
+       
+        width: 300px;
+        margin: 20px auto;
+      }
+  }
+
+  @media (max-width: 322px){
+    hr {
+       
+        width: 250px;
+        margin: 20px auto;
+      }
+  }

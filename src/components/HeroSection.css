@@ -1,9 +1,9 @@
 .heroSection-container {
     display: flex;
-    justify-content: center;
+   justify-content: center;
    background-color: #F9F0E5;
    margin: 0 auto; 
-   width: 100%;
+  max-width: 100%;
   
 }
 
@@ -29,7 +29,7 @@
 
 .logo {
     height: 36px;
-     margin: 69px 25px;
+     margin: 50px 20px 30px 15px;
 }
 
 .mainSection {
@@ -37,9 +37,10 @@
     align-self: center;
     justify-content: space-between; 
     align-items: center; 
-    height: 600px;
+    max-height: 500px;
+    height: 100%;
     width: 100%;
-    
+    padding: 20px 10px;
     
   }
 
@@ -54,7 +55,7 @@
     display: flex;
     justify-content: space-between;
      width: 100%;
-    
+    padding: 20px;
 }
 
 
@@ -70,13 +71,14 @@
 }
 
 .mainSection-textBlock {
-    flex: 1;
+    
     padding-right: 20px; 
   }
 
 .mainSection-listContainer{
-    
-        margin-top: 20px;
+       max-width: 600px;
+        margin-top: 10px;
+        
          
 }
 
@@ -89,12 +91,12 @@
 }
 
 .mainSection-collage {
-     
+        
         display: flex;
-         
         justify-content: center; 
         align-items: center;
         position: relative;
+         box-sizing: border-box;
 }
 
 .collage-item {
@@ -125,7 +127,8 @@
 
 
 .collage-img {
-    width: 80%; 
+    width: 100%;
+    
     height: auto;
     object-fit: cover; 
     transition: transform 0.3s ease;
@@ -136,16 +139,16 @@
 
 
   .collage-img.small {
-    width: 30%; 
-    width: 209px;
-    height: 317px;
+    
+    width: 109px;
+    height: 257px;
     
 }
   
   
   .collage-img.large {
-    width: 267px; 
-    height: 428px;
+    width: 227px; 
+    height: 388px;
 
   }
 
@@ -173,90 +176,185 @@
     margin: 0px 0px 0px 10px;
   }
 
-
-@media (max-width: 860px){
-    .hide-on-small-screen{
-        display:none;
+  
+ /*===============================================================*/
+ @media (max-width: 1140px) {
+    .mainSection-body {
+        gap: 20px;
+    }
+    .collage-img.small {
+    
+        width: 90px;
+        height: 207px;
         
     }
-    .heroSection-logo {
-        display: flex;
-        justify-content: center;
-        margin-left: 0%;
-         }
+      
+      
+      .collage-img.large {
+        width: 200px; 
+        height: 338px;
+    
+      }
+
+      .collage-bg {
+       
+        top: 30px;
+        left: -30px;
+        width: 50px;
+    }
+
+    
+ }
+
+ @media (max-width: 1090px) {
+    .collage-img.small {
+    
+        width: 70px;
+        height: 190px;
+    }
+      
+      .collage-img.large {
+        width: 180px; 
+        height: 308px;
+    
+      }
+
+      .collage-bg {
+       
+        top: 30px;
+        left: -30px;
+        width: 30px;
+    }
+
+   
+
+ }
+
+
+@media (max-width: 1000px){
 
     .mainSection-body {
         display: flex;
-        flex-direction: column-reverse;
         justify-content: center;
+        flex-direction: column-reverse;
     }
 
-    .mainSection-title {
+    .mainSection {
+        height: 100%;
+        max-height: 700px;
+    }
+
+    .heroSection-logo {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+     .logo {
+        height: 28px;
+        margin: 19px 15px;
+     }
+
+     .mainSection-collage {
+        
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+        margin-top: 5px;
+     }
 
-    .mainSection-listContainer {
+     .collage-img.small {
+    
+        width: 90px;
+        height: 207px;
+        
+    }
+      
+      
+      .collage-img.large {
+        width: 200px; 
+        height: 338px;
+    
+      }
+
+     
+     .mainSection-list {
         display: flex;
-        flex-direction: column;
-    }
+        justify-content: center;
+ 
+     }
 
-    .mainSection-list {
+     .mainSection-title {
         display: flex;
         justify-content: center;
         
+     }
+
+     .mainSection-textBlock { 
+     padding-right: 5px;
+      
     }
 
-    .mainSection-item img {
-        display: flex;
-        flex-direction: column;
-        object-position: center;
+    .collage-bg {
+       
+        top: 30px;
+        left: -30px;
+        width: 50px;
+    }
+
+    .mainSection-listContainer{
+        max-width: 800px;
+         margin-top: 10px;
+         
+          
+ }
+
+    
+
+
+}
+
+@media (max-width: 522px) {
+    .collage-img.small {
+    
+        width: 60px;
+        height: 160px;
+        
+    }
+      
+      
+      .collage-img.large {
+        width: 150px; 
+        height: 250px;
+    
+      }
+
+      .mainSection-listContainer{
+        max-width: 350px;
+      }
+
+      .collage-bg {
+       
+       display: none;
+    }
+
+    .collage-bg-left {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 522px) {
+    .mainSection-collage {
+        margin-top: 60px;
+    }
+
+    .mainSection-title{
+        font-size: 22px;
+        line-height: 25px;
     }
 
     .mainSection-text {
         font-size: 14px;
-        
     }
-
-    .mainSection-collage {
-        display: flex;
-        
-        width: 40%;
-        object-position: left;
-    }
-
-    .collage-bg {
-       width: 20%
-    }
-
-    .collage-img {
-        width: 20%; 
-        height: auto;
-    
-        
-      }
-    
-}
-
-@media (max-width: 660px) {
-    .mainSection-title {
-        font-size: 26px;
-    }
-
-    .mainSection-text {
-        font-size: 12px;
-    }
-
-    .button {
-        display: flex;
-       justify-content: center;
-       align-self: center;
-      }
-
-      .btn {
-      
-       width: 100%;
-       padding: 12px 45px;
-      } 
 }

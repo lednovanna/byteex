@@ -13,7 +13,7 @@ function YourBest() {
             <img src="/assets/img/img1.jpg" alt="Robe" width="100px" height="145px"/>
           </div>
           <div className="main-Image">
-            <img src="/assets/img/img2.jpg" alt="Suit" width="380px" height="570px"/>
+            <img src="/assets/img/img2.jpg" alt="Suit" width="250px" height="400px"/>
           </div>
           <div className="small-image right">
             <img src="/assets/img/img3.jpg" alt="Suit" width="100px" height="145px" />

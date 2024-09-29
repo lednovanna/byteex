@@ -7,9 +7,9 @@ import Benefits from './SectionBenefits';
 
 function HeroSection() {
     return (
-      <div className="App">
+        <div className="heroSectio-page">
        <div className="heroSection-container">
-        <div className="heroSection-top">
+        <div className="heroSection-top ">
          <span class="hide-on-small-screen">CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)</span>
           <span class="hide-on-small-screen"> | </span>
              <span >FREE SHIPPING on orders  $200</span>
@@ -28,12 +28,14 @@ function HeroSection() {
       <h1 className="mainSection-title">Don’t apologize for being <br /> comfortable.</h1>
 
       <div className="mainSection-listContainer">
+        <div className="sectionContainerMain">
         <div className="mainSection-list">
           <div className="mainSection-item">
             <img className="mainSection-icon" src="/assets/icons/icon8.png" alt="main-icon" />
           </div>
           <div className="mainSection-text">Beautiful, comfortable loungewear for day or night.</div>
         </div>
+        
         <div className="mainSection-list">
           <div className="mainSection-item">
             <img className="mainSection-icon" src="/assets/icons/icon5.png" alt="main-icon" />
@@ -45,6 +47,7 @@ function HeroSection() {
             <img className="mainSection-icon" src="/assets/icons/icon9.png" alt="main-icon" />
           </div>
           <div className="mainSection-text">Our signature fabric is incredibly comfortable — unlike <br/> anything you’ve ever felt.</div>
+        </div>
         </div>
         <div className="button">
         <Button/>

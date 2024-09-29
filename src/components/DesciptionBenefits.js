@@ -16,7 +16,7 @@ function DescriptionBenefits() {
                     <img className="icon-brand" src="/assets/icons/icon12.png" alt="Brand icon" width="111px" height="52px"></img>
                     <img className="icon-brand" src="/assets/icons/icon4.png" alt="Brand icon" width="270px" height="53px"></img>
                     <img className="icon-brand" src="/assets/icons/icon3.png" alt="Brand icon" width="194px" height="37px"></img>
-                    <img className="icon-brand" src="/assets/icons/icon2.png" alt="Brand icon" width="192px" height="58px"></img>
+                    <img className="icon-brand " src="/assets/icons/icon2.png" alt="Brand icon" width="192px" height="58px"></img>
                 </div>
             </div>
           </div>
@@ -37,6 +37,7 @@ function DescriptionBenefits() {
                             <div className="mainSectionBenefits-title">Ethically sourced.</div>
                             <div className="mainSectionBenefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.</div>
                         </div>
+                          <hr className="benefitsDivider"></hr>
 
                         <div className="mainSectionBenefits-list">
                             <div className="mainSectionBenefits-item">
@@ -45,6 +46,7 @@ function DescriptionBenefits() {
                             <div className="mainSectionBenefits-title">Responsibly made.</div>
                             <div className="mainSectionBenefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.</div>
                         </div>
+                        <hr className="benefitsDivider"></hr>
 
                         <div className="mainSectionBenefits-list"> 
                             <div className="mainSectionBenefits-item">
@@ -53,6 +55,7 @@ function DescriptionBenefits() {
                             <div className="mainSectionBenefits-title">Made for living in.</div>
                             <div className="mainSectionBenefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.</div>
                         </div>
+                        <hr className="benefitsDivider"></hr>
 
                         <div className="mainSectionBenefits-list">
                             <div className="mainSectionBenefits-item">
@@ -64,11 +67,11 @@ function DescriptionBenefits() {
                     </div>
                 </div>
 
-                
+                <div className="sliderBlock">
                     <div className="slider-section">
                         
                         <SliderCarusel/>
-                
+                 </div>
                 </div>
             </div>
         </div>
